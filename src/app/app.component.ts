@@ -5,7 +5,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { DefisPage } from '../pages/defis/defis';
 @Component({
-  templateUrl: 'app.html'
+  templateUrl: '<ion-nav [root]="rootPage"></ion-nav>'
 })
 export class MyApp {
   rootPage:any = DefisPage;
